@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import * as actions from '../../actions/index';
 
-import styles from './app.css';
+import Header from '../header/header.jsx';
 
 class App extends Component {
   render() {
     return (
-      <div className={styles.header}>Header position</div>
+      <div>
+        <Header></Header>
+      </div>
     );
   }
 }
