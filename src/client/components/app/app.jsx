@@ -7,7 +7,7 @@ import styles from './app.css';
 class App extends Component {
   render() {
     return (
-      <div className={styles.header}>Future Site of o4cute</div>
+      <div className={styles.header}>Header position</div>
     );
   }
 }
