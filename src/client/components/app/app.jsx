@@ -7,9 +7,9 @@ import Header from '../header/header.jsx';
 class App extends Component {
   render() {
     return (
-      <div>
+      <main>
         <Header></Header>
-      </div>
+      </main>
     );
   }
 }

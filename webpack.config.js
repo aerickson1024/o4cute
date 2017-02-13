@@ -29,6 +29,10 @@ module.exports = {
           }
         }
       })
+    },{
+      test: /\.jpeg$/,
+      exclude: /node_modules/,
+      use: 'file-loader?name=[name].[ext]&outputPath=images/'
     }]
   },
   plugins: [

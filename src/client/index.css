@@ -1,7 +1,20 @@
+:root {
+  --sky: #CAEBF2;
+  --carbon: #A9A9A9;
+  --watermelon: #FF3B3F;
+  --neutral: #EFEFEF;
+  --white: #FFFFFF;
+  --text: #585858;
+}
 :global * {
   margin: 0;
   padding: 0;
 }
 :global body {
-  font-family: sans-serif;
+  font-family: 'Dancing Script', sans-serif;
+  background-color: var(--neutral);
+  background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url('/build/images/ocean-scene.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }

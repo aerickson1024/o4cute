@@ -1,0 +1,33 @@
+.header {
+  width: 100vw;
+  color: var(--text);
+}
+.nav {
+  text-align: center;
+}
+.nav_list {
+  list-style-type: none;
+  font-size: 30px;
+}
+.nav_list > li {
+  display: inline-block;
+  margin-right: 7vw;
+}
+.nav_list > li:nth-child(3) {
+  font-size: 75px;
+}
+.nav_list > li:last-child {
+  margin-right: 0;
+}
+.nav_list > li:hover {
+  cursor: pointer;
+}
+.nav_list > li:hover:after {
+  content: '';
+  width: 100%;
+  display: block;
+  border: 1px solid black;
+}
+.nav_list > li:nth-child(3):hover:after {
+  border: none;
+}
