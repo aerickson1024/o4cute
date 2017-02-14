@@ -1,20 +1,21 @@
 .header {
   width: 100vw;
   color: var(--text);
+  margin-top: 3rem;
 }
 .nav {
   text-align: center;
 }
 .nav_list {
   list-style-type: none;
-  font-size: 30px;
+  font-size: 3rem;
 }
 .nav_list > li {
   display: inline-block;
   margin-right: 7vw;
 }
 .nav_list > li:nth-child(3) {
-  font-size: 75px;
+  font-size: 7.5rem;
 }
 .nav_list > li:last-child {
   margin-right: 0;

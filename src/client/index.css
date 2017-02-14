@@ -1,4 +1,5 @@
 :root {
+  font-size: 10px;
   --sky: #CAEBF2;
   --carbon: #A9A9A9;
   --watermelon: #FF3B3F;
@@ -16,5 +17,10 @@
   background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url('/build/images/ocean-scene.jpeg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 100vh;
+}
+:global a {
+  text-decoration: none;
+  color: inherit;
 }
