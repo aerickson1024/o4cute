@@ -3,6 +3,10 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const app = express();
 const router = require('./router');
+const mongoose = require('mongoose');
+
+// DB Setup
+mongoose.connect('mongodb://admin:admin@ds145329.mlab.com:45329/o4cute');
 
 // App Setup
 app.use(express.static(`${__dirname}/public`));
