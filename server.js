@@ -9,9 +9,9 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://admin:admin@ds145329.mlab.com:45329/o4cute');
 
 // App Setup
-app.use(express.static(`${__dirname}/public`));
 app.use(bodyParser.json({ type: '*/*' }));
 app.use(morgan(':method :url :status :response-time ms - :res[content-length]'));
+app.use(express.static(`${__dirname}/public`));
 router(app);
 
 // Server Setup
