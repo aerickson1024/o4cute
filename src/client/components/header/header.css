@@ -1,34 +1,114 @@
+/********************************
+  Entire container
+********************************/
 .header {
-  width: 100vw;
+  font-size: 2.25rem;
   color: var(--text);
-  margin-top: 3rem;
+  text-shadow: 0 0 1px white;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
 }
+
+
+/********************************
+  Navgiation
+********************************/
 .nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.nav a {
+  display: inline-block;
+}
+
+
+/********************************
+  All Sections of header
+********************************/
+.leftSection,
+.middleSection,
+.rightSection {
+  width: 60vw;
+  vertical-align: bottom;
+}
+
+
+/********************************
+  Left and Right Sections
+********************************/
+.leftSection,
+.rightSection {
+  width: 20vw;
+}
+
+
+/********************************
+  Middle and Right Sections
+********************************/
+.middleSection,
+.rightSection {
+  height: 3.25rem;
+}
+.middleSection a:hover:after,
+.rightSection a:hover:after {
+  content: '';
+  display: block;
+  border: 1px solid var(--text);
+}
+
+
+/********************************
+  Left Section of Header
+********************************/
+.leftSection {
+  font-size: 5rem;
+  margin-left: 2rem;
+}
+
+
+/********************************
+  Middle Section of Header
+********************************/
+.middleSection {
   text-align: center;
 }
-.nav_list {
-  list-style-type: none;
-  font-size: 3rem;
+.middleSection a {
+  margin-right: 5rem;
 }
-.nav_list > li {
-  display: inline-block;
-  margin-right: 7vw;
-}
-.nav_list > li:nth-child(3) {
-  font-size: 7.5rem;
-}
-.nav_list > li:last-child {
+.middleSection a:last-child {
   margin-right: 0;
 }
-.nav_list > li:hover {
-  cursor: pointer;
+
+
+/********************************
+  Right Section of Header
+********************************/
+.rightSection {
+  text-align: right;
 }
-.nav_list > li:hover:after {
-  content: '';
-  width: 100%;
-  display: block;
-  border: 1px solid black;
+.rightSection a {
+  margin-right: 2rem;
 }
-.nav_list > li:nth-child(3):hover:after {
-  border: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

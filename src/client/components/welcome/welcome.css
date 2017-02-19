@@ -1,0 +1,31 @@
+/********************************
+  Entire container
+********************************/
+.container {
+  color: var(--text);
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+
+/********************************
+  Middle area of the screen
+********************************/
+.box {
+  width: 35rem;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem 0 2rem 0;
+  border-radius: .125rem;
+  box-shadow: 0 0 .25rem 0 rgba(0,0,0,0.25);
+}
+
+
+/********************************
+  Centers the content of the
+  inner html within the box
+********************************/
+.center {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}

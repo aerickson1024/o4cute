@@ -1,5 +1,5 @@
 :root {
-  font-size: 10px;
+  font-size: 1vw;
   --sky: #CAEBF2;
   --carbon: #A9A9A9;
   --watermelon: #FF3B3F;
@@ -10,6 +10,7 @@
 :global * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 :global body {
   font-family: 'Dancing Script', sans-serif;
