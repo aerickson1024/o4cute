@@ -35,13 +35,20 @@ module.exports = {
     },{
       test: /\.jpeg$/,
       exclude: /node_modules/,
-      use: 'file-loader?publicPath=images/&outputPath=images/'
+      // use: 'file-loader?publicPath=images/&outputPath=images/'
+      use: {
+        loader: 'file-loader',
+        options: {
+          publicPath: 'images/',
+          outputPath: 'images/'
+        }
+      }
     }]
   },
   resolve: {
     extensions: ['.js','.jsx']
   },
   plugins: [
-    new ExtractTextPlugin('./styles.css')
+    new ExtractTextPlugin('styles.css')
   ]
 };
