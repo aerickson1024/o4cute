@@ -1,0 +1,27 @@
+.form {
+  width: 25vw;
+  margin: 4rem auto;
+  padding: 1rem;
+  background: var(--white);
+  font-family: sans-serif;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+  display: block;
+  margin: .5rem 0 1.5rem 0;
+  width: 100%;
+  font-size: 1.25rem;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  padding: .3rem;
+  border: 1px solid #dcdcdc;
+  transition: box-shadow .3s, border .3s;
+}
+.form input[type="email"]:focus,
+.form input[type="password"]:focus {
+  outline: none;
+  border: 1px solid rgb(255, 167, 207);
+  box-shadow: 0 0 5px 0 rgb(255, 167, 207);
+}

@@ -6,7 +6,7 @@ import {createStore, applyMiddleware} from 'redux';
 import reducers from './reducers/index';
 import async from './middlewares/async';
 
-import routes from './routes.jsx';
+import routes from './routes';
 
 import styles from './index.css';
 
