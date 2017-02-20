@@ -2,10 +2,12 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 
 module.exports = {
+  context: path.resolve(__dirname),
   entry: './src/client/index.jsx',
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, 'public/build')
+    path: path.join(__dirname, 'public/assets'),
+    publicPath: 'assets'
   },
   module: {
     rules: [{
@@ -33,7 +35,7 @@ module.exports = {
     },{
       test: /\.jpeg$/,
       exclude: /node_modules/,
-      use: 'file-loader?name=[name].[ext]&outputPath=images/'
+      use: 'file-loader?publicPath=images/&outputPath=images/'
     }]
   },
   resolve: {

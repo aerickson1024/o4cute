@@ -1,0 +1,198 @@
+/********************************
+  Entire container
+********************************/
+.header__header__1_1zB {
+  font-size: 2.25rem;
+  color: var(--text);
+  text-shadow: 0 0 1px white;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+
+/********************************
+  Navgiation
+********************************/
+.nav__header__1UH8I {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.nav__header__1UH8I a {
+  display: inline-block;
+}
+
+
+/********************************
+  All Sections of header
+********************************/
+.leftSection__header__3evNj,
+.middleSection__header__2hakP,
+.rightSection__header__HWXKq {
+  width: 60vw;
+  vertical-align: bottom;
+}
+
+
+/********************************
+  Left and Right Sections
+********************************/
+.leftSection__header__3evNj,
+.rightSection__header__HWXKq {
+  width: 20vw;
+}
+
+
+/********************************
+  Middle and Right Sections
+********************************/
+.middleSection__header__2hakP,
+.rightSection__header__HWXKq {
+  height: 3.25rem;
+}
+.middleSection__header__2hakP a:hover:after,
+.rightSection__header__HWXKq a:hover:after {
+  content: '';
+  display: block;
+  border: 1px solid var(--text);
+}
+
+
+/********************************
+  Left Section of Header
+********************************/
+.leftSection__header__3evNj {
+  font-size: 5rem;
+  margin-left: 2rem;
+}
+
+
+/********************************
+  Middle Section of Header
+********************************/
+.middleSection__header__2hakP {
+  text-align: center;
+}
+.middleSection__header__2hakP a {
+  margin-right: 5rem;
+}
+.middleSection__header__2hakP a:last-child {
+  margin-right: 0;
+}
+
+
+/********************************
+  Right Section of Header
+********************************/
+.rightSection__header__HWXKq {
+  text-align: right;
+}
+.rightSection__header__HWXKq a {
+  margin-right: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************
+  Entire container
+********************************/
+.parent__products__1-mJK {
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 4rem auto 0 auto;
+}
+
+
+/********************************
+  Each element found within the
+  flex-box parent
+********************************/
+.item__products__2R5AI {
+  font-size: 1.5rem;
+  height: 15rem;
+  width: 15rem;
+  text-align: center;
+  line-height: 15rem;
+  background-color: var(--white);
+  margin: 1.75rem;
+  box-shadow: 0 0 .25rem 0 rgba(0,0,0,0.25);
+}
+/********************************
+  Entire container
+********************************/
+.container__welcome__2jNiz {
+  color: var(--text);
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+
+/********************************
+  Middle area of the screen
+********************************/
+.box__welcome__2N3Ml {
+  width: 35rem;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem 0 2rem 0;
+  border-radius: .125rem;
+  box-shadow: 0 0 .25rem 0 rgba(0,0,0,0.25);
+}
+
+
+/********************************
+  Centers the content of the
+  inner html within the box
+********************************/
+.center__welcome__EjRvY {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}:root {
+  font-size: 1vw;
+  --sky: #CAEBF2;
+  --carbon: #A9A9A9;
+  --watermelon: #FF3B3F;
+  --neutral: #EFEFEF;
+  --white: #FFFFFF;
+  --text: #585858;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Dancing Script', sans-serif;
+  background-color: var(--neutral);
+  background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url(images/09085933df6b25823046eb770e0187b3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

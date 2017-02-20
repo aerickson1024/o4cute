@@ -15,7 +15,7 @@
 :global body {
   font-family: 'Dancing Script', sans-serif;
   background-color: var(--neutral);
-  background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url('/build/images/ocean-scene.jpeg');
+  background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url('resources/images/ocean-scene.jpeg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
